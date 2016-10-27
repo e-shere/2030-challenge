@@ -20,7 +20,7 @@
 	#navbar {
 	line-height: 80px;
 	height: 80px;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.6);
 	display: block;
 	vertical-align: middle;
 	text-align: center;
@@ -29,17 +29,21 @@
 
 	.nav.navbar-nav.navbar-right li a {
     color: white;
-    font-weight: 700;
+    font-weight: 800;
 	font-size: 13px;
 	letter-spacing: .1em;
 	text-transform: uppercase;
 	margin-top: 10px}
+
+	#footer {
+	background: rgb(0,0,0);
+	margin: 0;}
 	</style>
 
 </head>
 <body>
 	<!--top bar with buttons linked to various pages-->
-	<section id="navbar" class="navbar-fixed-top">
+	<section id="navbar" class="navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
      			 <a class="navbar-brand" href="home2.html"><i class="fa fa-battery-full fa-2x" style="color:white;"></a></i>
@@ -97,5 +101,12 @@
 				</div>
 			</div>	
 		</div>
+	</section>
+
+	<!--footer with copyright-->
+	<section id="footer">
+		<div class="row center">
+					<div class="col-md-12"><p style="color:white;">Copyright &copy; 2016 e-shere - for <a href="http://www.talent2030.org">Talent 2030</a></p></div>
+			</div>
 	</section>
 </body>
