@@ -343,16 +343,7 @@ section.section {
 /*===========================
   --- Header & menu ----
 =========================== */
-.navbar {
-	line-height: 100px;
-	height: 100px;
-	background-color: rgba(0,0,0,0.3);
-	display: block;
-	vertical-align: middle;
-	text-align: center;
-	margin-bottom: 0;
-	padding-bottom:0;
-}
+na
 
 .navbar .navbar-collapse {
 	margin-bottom: 0;
