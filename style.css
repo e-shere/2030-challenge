@@ -1,7 +1,7 @@
 
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css")
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css");
 
 
 	#title-image{background-image: url('http://www.utilitydive.com/user_media/cache/07/74/0774ef320571c0898a2020806bc74f78.jpg'); background-size: cover}
@@ -17,7 +17,11 @@
 	}
 
 	.row{padding: 40px}
+	.row.sm{padding: 20px}
 	.bold{font-weight: bold;}
+	.page-title{margin-top: 100px}
+	.container.txt{background-color: white}
+	#blank-image{margin: 20px}
 	#navbar {
 	line-height: 80px;
 	height: 80px;
