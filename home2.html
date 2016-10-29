@@ -13,8 +13,16 @@
 	<style>
 	#title-image{background-image: url('http://www.utilitydive.com/user_media/cache/07/74/0774ef320571c0898a2020806bc74f78.jpg'); background-size: cover}
 	#title-box{margin-top:80px;margin-bottom:50px}
-	body{font-family: 'Raleway', sans-serif;}
+	body{font-family: 'Raleway', sans-serif;
+		font-size: 17px}
 	.center{text-align: center}
+
+	.vcenter {
+		position: relative;
+		top: 50%;
+		transform: translateY(+50%);		
+	}
+
 	.row{padding: 40px}
 	.bold{font-weight: bold;}
 	#navbar {
@@ -38,6 +46,9 @@
 	#footer {
 	background: rgb(0,0,0);
 	margin: 0;}
+
+	.nav > li > a:hover{
+    background-color: rgba(255,255,255,0.3);}
 	</style>
 
 </head>
@@ -51,7 +62,7 @@
     		<ul class="nav navbar-nav navbar-right">
 		      <li class="active"><a href="home2.html">Home</a></li>
 		      <li><a href="challenges.html">Challenges</a></li>
-		      <li><a href="about.html">About</a></li> 
+		      <li><a href="about.html">How it works</a></li> 
 		      <li><a href="experiments.html">Experiments</a></li> 
 		      <li><a href="conclusion.html">Conclusion</a></li>
 		    </ul>
@@ -79,7 +90,7 @@
 		<div class="container">
 			<!--a row: symbol+short text-->
 			<div class="row">
-				<div class="col-md-3  center">
+				<div class="col-md-3  center vcenter">
 					<i class="fa fa-cogs fa-5x"></i>
 				</div>
 				<div class="col-md-7">
@@ -91,7 +102,7 @@
 
 			<!--a row: symbol+short text-->
 			<div class="row">
-				<div class="col-md-3  center">
+				<div class="col-md-3  center vcenter">
 					<i class="fa fa-question fa-5x"></i>
 				</div>
 				<div class="col-md-7">
@@ -102,7 +113,7 @@
 			</div>	
 			<!--a row: symbol+short text-->
 			<div class="row">
-				<div class="col-md-3  center">
+				<div class="col-md-3  center vcenter">
 					<i class="fa fa-flask fa-5x"></i>
 				</div>
 				<div class="col-md-7">
@@ -114,7 +125,7 @@
 
 			<!--a row: symbol+short text-->
 			<div class="row">
-				<div class="col-md-3  center">
+				<div class="col-md-3  center vcenter">
 					<i class="fa fa-check-square-o fa-5x"></i>
 				</div>
 				<div class="col-md-7">
